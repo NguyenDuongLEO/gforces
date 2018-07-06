@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GForce(failed)">
+    <classes>
+      <class name="testScripts.data_TestScritps.TC023EditDiscontinuedDateWithValidDate">
+        <methods>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="verifyDiscontinuedDateWithValidDateCorrectly"/>
+        </methods>
+      </class> <!-- testScripts.data_TestScritps.TC023EditDiscontinuedDateWithValidDate -->
+      <class name="testScripts.data_TestScritps.TC021EditIntroducedDateWithValidDate">
+        <methods>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="verifyIntroducedDateWithValidDateCorrectly"/>
+        </methods>
+      </class> <!-- testScripts.data_TestScritps.TC021EditIntroducedDateWithValidDate -->
+    </classes>
+  </test> <!-- GForce(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
